@@ -16,7 +16,7 @@ The purpose of this repo is to track Web-interop details related to the global `
 
   Web-interoperable runtimes other than web browsers should not implement these
   APIs. If they do so, they use a consistent
-  [navigator compatibility mode](html.spec.whatwg.org/multipage/#concept-navigator-compatibility-mode),
+  [navigator compatibility mode](https://html.spec.whatwg.org/multipage/#concept-navigator-compatibility-mode),
   and they must implement all listed APIs (if applicable to the compatibility
   mode). Additionally, their value of `navigator.userAgent` should also be
   consistent with web browsers of the same navigator compatibility mode.
@@ -30,7 +30,7 @@ The purpose of this repo is to track Web-interop details related to the global `
   runtime) may implement them as well, if other platform details are exposed to
   author code through other means. Other runtimes should not implement it, but
   if they do, they must use `"en-US"` as the single
-  [plausible language](html.spec.whatwg.org/multipage/#a-plausible-language).
+  [plausible language](https://html.spec.whatwg.org/multipage/#a-plausible-language).
 
   Runtimes which implement these properties should also support the
   [`languagechange`](https://html.spec.whatwg.org/multipage/#event-languagechange)
